@@ -1,0 +1,14 @@
+Statistics for files:
+virus_alpha.rmsd.H2B_B_1.dat
+virus_alpha.rmsd.H2B_B_2.dat
+virus_alpha.rmsd.H2B_B_3.dat
+virus_alpha.rmsd.H2B_B_4.dat
+
+Average of column 1 in virus_alpha.rmsd.H2B_B_1.dat: 2.9161149315789476
+Average of column 1 in virus_alpha.rmsd.H2B_B_2.dat: 3.2620396736842103
+Average of column 1 in virus_alpha.rmsd.H2B_B_3.dat: 2.9763363789473685
+Average of column 1 in virus_alpha.rmsd.H2B_B_4.dat: 3.568971494736842
+
+Average of the averages: 3.180865619736842
+Standard Deviation of averages: 0.2593937809883667
+Standard Error of averages: 0.12969689049418334
