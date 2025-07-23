@@ -1,0 +1,14 @@
+Statistics for files:
+trunc_euk_alpha.rmsd.H2B_H_1.dat
+trunc_euk_alpha.rmsd.H2B_H_2.dat
+trunc_euk_alpha.rmsd.H2B_H_3.dat
+trunc_euk_alpha.rmsd.H2B_H_4.dat
+
+Average of column 1 in trunc_euk_alpha.rmsd.H2B_H_1.dat: 2.052751489473684
+Average of column 1 in trunc_euk_alpha.rmsd.H2B_H_2.dat: 2.246864715789474
+Average of column 1 in trunc_euk_alpha.rmsd.H2B_H_3.dat: 2.122704021052632
+Average of column 1 in trunc_euk_alpha.rmsd.H2B_H_4.dat: 2.008927694736842
+
+Average of the averages: 2.1078euk_alpha980263158
+Standard Deviation of averages: 0.08995442694255604
+Standard Error of averages: 0.04497721347127802
