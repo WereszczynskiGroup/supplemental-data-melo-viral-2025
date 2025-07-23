@@ -1,0 +1,14 @@
+Statistics for files:
+euk_widom.rmsd.H4_B_1.dat
+euk_widom.rmsd.H4_B_2.dat
+euk_widom.rmsd.H4_B_3.dat
+euk_widom.rmsd.H4_B_4.dat
+
+Average of column 1 in euk_widom.rmsd.H4_B_1.dat: 2.2523899
+Average of column 1 in euk_widom.rmsd.H4_B_2.dat: 1.8728649105263155
+Average of column 1 in euk_widom.rmsd.H4_B_3.dat: 1.8912219210526318
+Average of column 1 in euk_widom.rmsd.H4_B_4.dat: 2.1862927421052634
+
+Average of the averages: 2.0506923684210525
+Standard Deviation of averages: 0.1703839663477221
+Standard Error of averages: 0.08519198317386105

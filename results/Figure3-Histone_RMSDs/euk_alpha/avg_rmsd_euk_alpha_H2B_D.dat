@@ -1,0 +1,14 @@
+Statistics for files:
+euk_alpha.rmsd.H2B_D_1.dat
+euk_alpha.rmsd.H2B_D_2.dat
+euk_alpha.rmsd.H2B_D_3.dat
+euk_alpha.rmsd.H2B_D_4.dat
+
+Average of column 1 in euk_alpha.rmsd.H2B_D_1.dat: 1.952243
+Average of column 1 in euk_alpha.rmsd.H2B_D_2.dat: 2.1150716631578947
+Average of column 1 in euk_alpha.rmsd.H2B_D_3.dat: 2.205415052631579
+Average of column 1 in euk_alpha.rmsd.H2B_D_4.dat: 2.3007927315789476
+
+Average of the averages: 2.1433806118421055
+Standard Deviation of averages: 0.12841517679037912
+Standard Error of averages: 0.06420758839518956
