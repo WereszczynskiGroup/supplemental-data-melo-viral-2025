@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+#Aligned at protein core
+#Radius of Gyration (Rg) for protein core residues
+
+
+
+#Loop over 4 replicas
+for i in {1..4}
+
+do
+
+
+cpptraj <<_EOF
+parm virus_alpha.run$i.prmtop
+trajin virus_alpha.run$i.xtc
+autoimage
+align :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= first
+radgyr Run1 :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= out virus_alpha_protein_rg$i.dat nomax mass
+go
+clear all
+
+_EOF
+
+
+done
