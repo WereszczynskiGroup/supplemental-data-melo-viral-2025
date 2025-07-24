@@ -1,0 +1,61 @@
+Protein_Type,DNA_Type,Interaction_1,Interaction_2,Average_HBonds,Error
+Virus,Widom 601,(H4-H3)2,(H4-H3)2,161.3,1.89
+Virus,Widom 601,(H4-H3)2,H2B-H2A.1,9.7,0.65
+Virus,Widom 601,(H4-H3)2,H2B-H2A.2,9.3,0.85
+Virus,Widom 601,H2B-H2A.1,(H4-H3)2,9.7,0.65
+Virus,Widom 601,H2B-H2A.1,H2B-H2A.1,73.4,0.17
+Virus,Widom 601,H2B-H2A.1,H2B-H2A.2,1.5,0.60
+Virus,Widom 601,H2B-H2A.2,(H4-H3)2,9.3,0.85
+Virus,Widom 601,H2B-H2A.2,H2B-H2A.1,1.5,0.60
+Virus,Widom 601,H2B-H2A.2,H2B-H2A.2,69.8,1.20
+
+Virus,Alpha-Satellite,(H4-H3)2,(H4-H3)2,162.6,1.42
+Virus,Alpha-Satellite,(H4-H3)2,H2B-H2A.1,6.9,1.13
+Virus,Alpha-Satellite,(H4-H3)2,H2B-H2A.2,9.0,1.20
+Virus,Alpha-Satellite,H2B-H2A.1,(H4-H3)2,6.9,1.13
+Virus,Alpha-Satellite,H2B-H2A.1,H2B-H2A.1,71.2,0.76
+Virus,Alpha-Satellite,H2B-H2A.1,H2B-H2A.2,0.2,0.11
+Virus,Alpha-Satellite,H2B-H2A.2,(H4-H3)2,9.0,1.20
+Virus,Alpha-Satellite,H2B-H2A.2,H2B-H2A.1,0.2,0.11
+Virus,Alpha-Satellite,H2B-H2A.2,H2B-H2A.2,72.6,0.99
+
+Eukaryotic,Widom 601,(H4-H3)2,(H4-H3)2,186.1,1.46
+Eukaryotic,Widom 601,(H4-H3)2,H2B-H2A.1,13.1,0.52
+Eukaryotic,Widom 601,(H4-H3)2,H2B-H2A.2,13.6,0.40
+Eukaryotic,Widom 601,H2B-H2A.1,(H4-H3)2,13.1,0.52
+Eukaryotic,Widom 601,H2B-H2A.1,H2B-H2A.1,93.1,0.44
+Eukaryotic,Widom 601,H2B-H2A.1,H2B-H2A.2,1.0,0.10
+Eukaryotic,Widom 601,H2B-H2A.2,(H4-H3)2,13.6,0.40
+Eukaryotic,Widom 601,H2B-H2A.2,H2B-H2A.1,1.0,0.10
+Eukaryotic,Widom 601,H2B-H2A.2,H2B-H2A.2,93.1,0.28
+
+Eukaryotic,Alpha-Satellite,(H4-H3)2,(H4-H3)2,192.5,1.44
+Eukaryotic,Alpha-Satellite,(H4-H3)2,H2B-H2A.1,13.3,0.50
+Eukaryotic,Alpha-Satellite,(H4-H3)2,H2B-H2A.2,12.5,0.38
+Eukaryotic,Alpha-Satellite,H2B-H2A.1,(H4-H3)2,13.3,0.50
+Eukaryotic,Alpha-Satellite,H2B-H2A.1,H2B-H2A.1,93.5,0.80
+Eukaryotic,Alpha-Satellite,H2B-H2A.1,H2B-H2A.2,0.9,0.16
+Eukaryotic,Alpha-Satellite,H2B-H2A.2,(H4-H3)2,12.5,0.38
+Eukaryotic,Alpha-Satellite,H2B-H2A.2,H2B-H2A.1,0.9,0.16
+Eukaryotic,Alpha-Satellite,H2B-H2A.2,H2B-H2A.2,91.1,0.43
+
+Truncated Eukaryotic,Widom 601,(H4-H3)2,(H4-H3)2,177.9,0.43
+Truncated Eukaryotic,Widom 601,(H4-H3)2,H2B-H2A.1,11.5,0.21
+Truncated Eukaryotic,Widom 601,(H4-H3)2,H2B-H2A.2,11.8,0.15
+Truncated Eukaryotic,Widom 601,H2B-H2A.1,(H4-H3)2,11.5,0.21
+Truncated Eukaryotic,Widom 601,H2B-H2A.1,H2B-H2A.1,87.7,0.19
+Truncated Eukaryotic,Widom 601,H2B-H2A.1,H2B-H2A.2,1.2,0.17
+Truncated Eukaryotic,Widom 601,H2B-H2A.2,(H4-H3)2,11.8,0.15
+Truncated Eukaryotic,Widom 601,H2B-H2A.2,H2B-H2A.1,1.2,0.17
+Truncated Eukaryotic,Widom 601,H2B-H2A.2,H2B-H2A.2,88.2,0.61
+
+Truncated Eukaryotic,Alpha-Satellite,(H4-H3)2,(H4-H3)2,176.7,0.96
+Truncated Eukaryotic,Alpha-Satellite,(H4-H3)2,H2B-H2A.1,13.6,0.26
+Truncated Eukaryotic,Alpha-Satellite,(H4-H3)2,H2B-H2A.2,12.1,0.25
+Truncated Eukaryotic,Alpha-Satellite,H2B-H2A.1,(H4-H3)2,13.6,0.26
+Truncated Eukaryotic,Alpha-Satellite,H2B-H2A.1,H2B-H2A.1,86.3,0.40
+Truncated Eukaryotic,Alpha-Satellite,H2B-H2A.1,H2B-H2A.2,1.0,0.13
+Truncated Eukaryotic,Alpha-Satellite,H2B-H2A.2,(H4-H3)2,12.1,0.25
+Truncated Eukaryotic,Alpha-Satellite,H2B-H2A.2,H2B-H2A.1,1.0,0.13
+Truncated Eukaryotic,Alpha-Satellite,H2B-H2A.2,H2B-H2A.2,86.2,0.44
+
