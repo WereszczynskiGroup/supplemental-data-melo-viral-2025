@@ -1,0 +1,21 @@
+PT heating with restraints
+ &cntrl
+  imin  = 0,    ntx = 1,      irest = 0,            !Don't do minimization, read coordinates but not velocities from restarts file
+  nstlim=25000, dt = 0.004,                         !run for 25000 steps, 2 fs timestep
+  temp0 = 300,  ig = -1,                            !temperature (will be modified based on time below), use random seed
+  ntpr = 1000,  ntwr = 2500,  ntwx = 2500,          !frequency for outputs of energy, restarts, and trajectory
+  ntf = 2,	ntc = 2,                            !SHAKE
+  cut = 10.0,                                       !constant volume boundaries and cutoff
+  ntb = 2, ntp = 1, tautp = 1.0, taup = 1.0,        !Constant pressure 
+  barostat = 1,                                     !Berendsen barostat, may change to 2 for MC
+  ntt = 3,      gamma_ln = 2,                       !Langevin dynamics 
+  ntr = 1,                                          !restraints
+  restraintmask = ':1-1092 & !@H=', restraint_wt = 10,!restraint mask and weight
+  iwrap = 1,    ioutfm = 1,                         !wrap coordinates and 
+  nmropt =1                                         !use heating options below
+/
+&wt type='TEMP0', istep1=0,istep2=2500,             !heat from 5 to 300 K over 2500 steps (5 ps)
+   value1=5.0, value2=300.0
+/
+&wt type='END'
+/
