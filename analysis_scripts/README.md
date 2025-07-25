@@ -8,4 +8,4 @@ Software and libraries required:
 - cpptraj
 - Python (MDAnalysis, NumPy, Pandas, scipy, os)
 
-Insturctions on how to use each script included in each directory
+Instructions on how to use each script included in each directory
