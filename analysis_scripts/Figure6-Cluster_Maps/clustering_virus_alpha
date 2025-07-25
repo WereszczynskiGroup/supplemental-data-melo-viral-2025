@@ -1,0 +1,33 @@
+cpptraj <<_EOF
+
+parm virus_alpha.prmtop
+parmstrip !(:305-491&!@CA,C,O,N,H=)
+parmwrite out connector.prmtop
+go
+_EOF
+
+
+cpptraj <<_EOF
+parm connector.prmtop
+trajin traj_en_side.xtc
+trajin traj_ex_side.xtc
+align :1-73,96-187 first
+trajout traj_sides_aligned.xtc
+run
+
+
+cluster C0  \
+       dbscan minpoints 4 epsilon 3.8 \
+       rms :74-95 \
+       sieve 10 random \
+       out dbscan3.dat \
+       info info.dbscan3.dat \
+       cpopvtime cpopvtime.dbscan3.dat normframe \
+       repout rep repfmt pdb \
+       singlerepout testrep.nc singlerepfmt netcdf \
+       avgout AVGtest avgfmt restart \
+       summary summary.dat \
+       summarysplit split.dbscan3.dat splitframe 45711,59441,79037,79960,80000,87682,104139,136828,142339,160000
+run
+quit
+_EOF
