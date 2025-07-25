@@ -1,4 +1,4 @@
-**Histone RMSD Calculations (files: RMSD_protein_dna_type.sh)**
+**Histone RMSD Calculations (files: RMSD_protein_dnatype.sh)**
 
 Cpptraj scripts within bash script calculate RMSD for each histone (H4,H3,H2A,H2B) within each nucleosome type (viral, eukaryote, truncated eukaryote) for both DNA types (widom 601 and alpha-satellite). 
 
