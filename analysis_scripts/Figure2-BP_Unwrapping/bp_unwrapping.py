@@ -24,7 +24,7 @@ font ={'family': 'sans-serif',
 
 ############# Load in trajectory files and the parmtop file ############
 
-top_file = 'virus_widom.run1.prmtop'
+top_file = 'virus_widom.prmtop'
 
 u1_done = mda.Universe(top_file,'virus_widom.run1.xtc')
 ref_u1_done = mda.Universe(top_file,'virus_widom.run1.xtc')
