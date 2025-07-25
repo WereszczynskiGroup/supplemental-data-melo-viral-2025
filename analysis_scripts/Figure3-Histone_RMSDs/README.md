@@ -5,7 +5,7 @@ Cpptraj scripts within bash script calculate RMSD for each histone (H4,H3,H2A,H2
 Script first aligns each histone core residues to the first frame, then calculates the RMSD of that histone over the entire trajectory and looping over each replica.
 Excludes first 100ns / 1000 frames of simulation to account for equilibration time. 
 
-- Files parmtop and trajectory files mentioned uploaded to Zenodo.
+- Parmtop and trajectory files mentioned uploaded to Zenodo.
 
 
 **Average RMSD python script**
