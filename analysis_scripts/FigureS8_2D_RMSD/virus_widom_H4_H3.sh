@@ -1,10 +1,6 @@
 #!/bin/bash
 
 
-module load cuda/12 amber/24
-
-
-
 
 cpptraj <<_EOF
 parm virus_widom.prmtop
