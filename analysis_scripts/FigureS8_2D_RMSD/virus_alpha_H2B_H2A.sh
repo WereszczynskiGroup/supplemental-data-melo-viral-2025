@@ -39,7 +39,7 @@ _EOF
 
 
 
-
+cpptraj <<_EOF
 parm connector_H2B_H2A.prmtop
 trajin H2B_H2A_en_con.xtc
 trajin H2B_H2A_ex_con.xtc
