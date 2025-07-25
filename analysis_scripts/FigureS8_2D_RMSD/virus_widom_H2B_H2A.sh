@@ -1,10 +1,6 @@
 #!/bin/bash
 
 
-module load cuda/12 amber/24
-
-
-
 
 cpptraj <<_EOF
 parm virus_widom.prmtop
@@ -44,7 +40,7 @@ _EOF
 
 
 
-
+cpptraj <<_EOF
 parm connector_H2B_H2A.prmtop
 trajin H2B_H2A_en_con.xtc
 trajin H2B_H2A_ex_con.xtc
