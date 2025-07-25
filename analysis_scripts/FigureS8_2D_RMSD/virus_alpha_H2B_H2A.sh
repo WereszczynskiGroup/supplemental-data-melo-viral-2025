@@ -1,11 +1,6 @@
 #!/bin/bash
 
 
-module load cuda/12 amber/24
-
-
-
-
 cpptraj <<_EOF
 parm virus_alpha.prmtop
 trajin virus_alpha.run1.xtc 1 last 10
