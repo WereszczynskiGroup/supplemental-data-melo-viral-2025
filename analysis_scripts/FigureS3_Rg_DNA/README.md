@@ -1,4 +1,5 @@
 **Radius of Gyration (Rg) of Entry and Exit DNA Calculations (files: protein_dnatype_rg_dna_entry_exit.sh)**
+-
 
 Cpptraj scripts within bash script calculate Rg for each DNA arm (Entry/Exit) within each nucleosome type (viral, eukaryote, truncated eukaryote) for both DNA types (widom 601 and alpha-satellite). 
 
