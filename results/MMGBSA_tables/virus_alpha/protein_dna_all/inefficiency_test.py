@@ -4,9 +4,9 @@ from pymbar import timeseries
 from math import sqrt
 
 ####### Edit output file names #######
-output_file1 = "protein_dna_all_complex_data.txt"
-output_file2 = "protein_dna_all_receptor_data.txt"
-output_file3 = "protein_dna_all_ligand_data.txt"
+output_file1 = "protein_dna_all_complex_data.dat"
+output_file2 = "protein_dna_all_receptor_data.dat"
+output_file3 = "protein_dna_all_ligand_data.dat"
 ######################################
 
 # Function to comment non-numeric lines
