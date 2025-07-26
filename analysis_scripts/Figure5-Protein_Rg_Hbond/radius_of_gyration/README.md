@@ -1,4 +1,5 @@
 **Protein Radius of Gyration (Rg) Calculations (files: protein_dnatype_protein_rg.sh)**
+-
 
 Cpptraj scripts within bash script calculate Rg for the entire protein in each nucleosome (viral, eukaryote, truncated eukaryote) for both DNA types (widom 601 and alpha-satellite). 
 
