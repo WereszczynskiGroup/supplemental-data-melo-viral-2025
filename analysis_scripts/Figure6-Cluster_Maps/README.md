@@ -1,4 +1,5 @@
 **Viral Fused Histone Connector - DBSCAN Cluster Conformational Analysiss**
+-
 
 
 These scripts can be used to analyze conformations of the H4-H3 connector from the fused viral histones. This is done by organizing the trajectory frames by the number of basepairs unwrapped at that side of the nucleosome (Entry/Exit) and performing DBSCAN analyses collectively on the connector sidechains. This sets the system up for dominant conformation comparisons as DNA unwrapping progresses in this system by DNA arm, useful for a system with asymmetric DNA fluctuations.
