@@ -1,4 +1,5 @@
 **MM/GBSA Binding Free Energy Calculations**
+-
 
 The scripts located inside each protein type folder can be used to set up and calculate the binding free energy between segments within the nucleosome structure (viral, eukaryotic, truncated eukaryotic) with either DNA sequence (widom 601 or alpha-satellite dna). The initial files assign a set of residues as the "ligand" and another as the "receptor", as part of the complex structure in the single-trajectory approach for MM/GBSA calculations.
 
