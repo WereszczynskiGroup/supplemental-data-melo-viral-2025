@@ -1,4 +1,5 @@
 **2D RMSD Viral Fused Histone Connector Calculations (files: protein_dnatype_connector.sh)**
+-
 
 Cpptraj scripts within bash script calculate the 2D RMSD for the histone connectors (H4-H3,H2B-H2A) found in the viral nucleosome for both DNA types (widom 601 and alpha-satellite). 
 
