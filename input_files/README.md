@@ -3,7 +3,8 @@
 This directory contains files and scripts used to generate the molecular system and prepare it for simulation.
 
 Contents include:
-- All-Atom initial PDB files for each system (Protein: Viral, Eukaryotic, Truncated Eukaryotic Protein; DNA: Widom 601 + Alpha-Satellite DNA)
+- All-Atom initial PDB files for each system
+- Protein: Viral, Eukaryotic, Truncated Eukaryotic Protein; DNA: Widom 601 + Alpha-Satellite DNA
 - Files necessary to achieve starting viral nucleosome structure (sequence coordinates, TargetedMD)
 - Amber input files (Conventional All Atom + Targeted MD)
 - Solvation and ionization script (tleap)
