@@ -1,4 +1,5 @@
 **Histone RMSD Calculations (files: RMSD_protein_dnatype.sh)**
+-
 
 Cpptraj scripts within bash script calculate RMSD for each histone (H4,H3,H2A,H2B) within each nucleosome type (viral, eukaryote, truncated eukaryote) for both DNA types (widom 601 and alpha-satellite). 
 
@@ -9,6 +10,7 @@ Excludes first 100ns / 1000 frames of simulation to account for equilibration ti
 
 
 **Average RMSD python script**
+-
 
 To calculate the average RMSD for a histone, run the "Avg_RMSD.py" file in python and follow the prompts asking for the inputs associated with the protein_dnatype (as the prefix) and histone_chain (as the middle).
 
