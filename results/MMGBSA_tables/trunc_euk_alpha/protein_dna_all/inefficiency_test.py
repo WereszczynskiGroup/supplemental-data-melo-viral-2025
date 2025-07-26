@@ -62,7 +62,7 @@ def load_columns_by_name(fname, columns_to_keep):
     return np.array(data_lines)
 
 # Files list
-files = [f'per_residue_decomp_chunk{str(i).zfill(2)}.dat' for i in range(1, 21)]
+files = [f'decomp_chunk{str(i).zfill(2)}.dat' for i in range(1, 21)]
 
 # Comment header lines in all files
 for f in files:
