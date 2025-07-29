@@ -46,7 +46,7 @@ def calculate_column_statistics(file_paths, column_index, start_row, output_file
 
 
 # === User inputs ===
-prefix = input("Enter the prefix (e.g. 'virus_virus' or '1kx5_1kx5'): ")
+prefix = input("Enter the prefix (e.g. 'virus_widom' or 'euk_alpha'): ")
 middle = input("Enter the middle part (e.g. 'H4_A' or 'H2A_B'): ")
 
 # Fixed values
