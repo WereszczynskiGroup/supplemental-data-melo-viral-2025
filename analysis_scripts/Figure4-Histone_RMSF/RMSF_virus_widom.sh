@@ -16,7 +16,7 @@ do
 
 
 cpptraj <<_EOF
-parm virus_widom.run$i.prmtop
+parm virus_widom.prmtop
 trajin virus_widom.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= first 
@@ -27,7 +27,7 @@ atomicfluct :305-377&!@H= byres out virus_widom.rmsf.H4_A_$i.dat
 _EOF
 
 cpptraj <<_EOF
-parm virus_widom.run$i.prmtop
+parm virus_widom.prmtop
 trajin virus_widom.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= first 
@@ -39,7 +39,7 @@ _EOF
 
 
 cpptraj <<_EOF
-parm virus_widom.run$i.prmtop
+parm virus_widom.prmtop
 trajin virus_widom.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= first 
@@ -51,7 +51,7 @@ _EOF
 
 
 cpptraj <<_EOF
-parm virus_widom.run$i.prmtop
+parm virus_widom.prmtop
 trajin virus_widom.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= first 
@@ -62,7 +62,7 @@ atomicfluct :598-680&!@H= byres out virus_widom.rmsf.H2A_B_$i.dat
 _EOF
 
 cpptraj <<_EOF
-parm virus_widom.run$i.prmtop
+parm virus_widom.prmtop
 trajin virus_widom.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= first 
@@ -73,7 +73,7 @@ atomicfluct :704-776&!@H= byres out virus_widom.rmsf.H4_C_$i.dat
 _EOF
 
 cpptraj <<_EOF
-parm virus_widom.run$i.prmtop
+parm virus_widom.prmtop
 trajin virus_widom.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= first 
@@ -84,7 +84,7 @@ atomicfluct :799-890&!@H= byres out virus_widom.rmsf.H3_C_$i.dat
 _EOF
 
 cpptraj <<_EOF
-parm virus_widom.run$i.prmtop
+parm virus_widom.prmtop
 trajin virus_widom.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= first 
@@ -95,7 +95,7 @@ atomicfluct :902-989&!@H= byres out virus_widom.rmsf.H2B_D_$i.dat
 _EOF
 
 cpptraj <<_EOF
-parm virus_widom.run$i.prmtop
+parm virus_widom.prmtop
 trajin virus_widom.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= first 
