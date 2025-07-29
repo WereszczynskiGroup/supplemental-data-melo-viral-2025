@@ -1,11 +1,4 @@
-cpptraj <<_EOF
-
-parm virus_alpha.prmtop
-parmstrip !(:305-491&!@CA,C,O,N,H=)
-parmwrite out connector.prmtop
-go
-_EOF
-
+#!/bin/bash
 
 cpptraj <<_EOF
 parm connector.prmtop
