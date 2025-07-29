@@ -18,7 +18,7 @@ parm trunc_euk_alpha.prmtop
 trajin trunc_euk_alpha.run$i.xtc
 autoimage
 align :301-392,402-474,475-557,585-672,680-771,781-853,854-936,964-1051&!@H= first
-radgyr Run$i :301-392,402-474,475-557,585-672,680-771,781-853,854-936,964-1051&!@H= out trunc_euk_alpha_protein_rg$i.dat nomax mass
+radgyr Rg :301-392,402-474,475-557,585-672,680-771,781-853,854-936,964-1051&!@H= out trunc_euk_alpha_protein_rg$i.dat nomax mass
 go
 clear all
 
