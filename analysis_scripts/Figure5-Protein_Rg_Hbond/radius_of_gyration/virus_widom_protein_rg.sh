@@ -17,7 +17,7 @@ parm virus_widom.prmtop
 trajin virus_widom.run$i.xtc
 autoimage
 align :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= first
-radgyr Run$i :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= out virus_widom_protein_rg$i.dat nomax mass
+radgyr Rg :305-377,400-491,503-590,598-680,704-776,799-890,902-989,997-1079&!@H= out virus_widom_protein_rg$i.dat nomax mass
 go
 clear all
 
