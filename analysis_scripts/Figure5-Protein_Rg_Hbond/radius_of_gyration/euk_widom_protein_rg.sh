@@ -15,11 +15,11 @@ do
 
 
 cpptraj <<_EOF
-parm euk_widom.run$i.prmtop
+parm euk_widom.prmtop
 trajin euk_widom.run$i.xtc
 autoimage
 align :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= first
-radgyr Run1 :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= out euk_widom_protein_rg$i.dat nomax mass
+radgyr Run$i :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= out euk_widom_protein_rg$i.dat nomax mass
 go
 clear all
 
