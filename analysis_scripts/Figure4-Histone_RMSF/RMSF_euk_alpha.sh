@@ -16,7 +16,7 @@ do
 
 
 cpptraj <<_EOF
-parm euk_alpha.run$i.prmtop
+parm euk_alpha.prmtop
 trajin euk_alpha.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= first 
@@ -28,7 +28,7 @@ _EOF
 
 
 cpptraj <<_EOF
-parm euk_alpha.run$i.prmtop
+parm euk_alpha.prmtop
 trajin euk_alpha.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= first 
@@ -40,7 +40,7 @@ _EOF
 
 
 cpptraj <<_EOF
-parm euk_alpha.run$i.prmtop
+parm euk_alpha.prmtop
 trajin euk_alpha.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= first 
@@ -51,7 +51,7 @@ atomicfluct :547-629&!@H= byres out euk_alpha.rmsf.H2A_C_$i.dat
 _EOF
 
 cpptraj <<_EOF
-parm euk_alpha.run$i.prmtop
+parm euk_alpha.prmtop
 trajin euk_alpha.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= first 
@@ -62,7 +62,7 @@ atomicfluct :693-780&!@H= byres out euk_alpha.rmsf.H2B_D_$i.dat
 _EOF
 
 cpptraj <<_EOF
-parm euk_alpha.run$i.prmtop
+parm euk_alpha.prmtop
 trajin euk_alpha.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= first 
@@ -73,7 +73,7 @@ atomicfluct :825-916&!@H= byres out euk_alpha.rmsf.H3_E_$i.dat
 _EOF
 
 cpptraj <<_EOF
-parm euk_alpha.run$i.prmtop
+parm euk_alpha.prmtop
 trajin euk_alpha.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= first 
@@ -84,7 +84,7 @@ atomicfluct :946-1018&!@H= byres out euk_alpha.rmsf.H4_F_$i.dat
 _EOF
 
 cpptraj <<_EOF
-parm euk_alpha.run$i.prmtop
+parm euk_alpha.prmtop
 trajin euk_alpha.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= first 
@@ -95,7 +95,7 @@ atomicfluct :1034-1116&!@H= byres out euk_alpha.rmsf.H2A_G_$i.dat
 _EOF
 
 cpptraj <<_EOF
-parm euk_alpha.run$i.prmtop
+parm euk_alpha.prmtop
 trajin euk_alpha.run$i.xtc 1001 last 1
 autoimage
 rms Run1 :338-429,459-531,547-629,693-780,825-916,946-1018,1034-1116,1180-1267&!@H= first 
