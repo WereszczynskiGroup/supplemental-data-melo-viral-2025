@@ -1,8 +1,8 @@
-# Supporting Information for "Viral Nucleosome-Like Particles Exhibit Dynamic Flexibility and Reduced Thermodynamic Stability"
+# Supporting Information for "Viral Nucleosome-Like Particles Show Increased Dynamic Behavior and Altered Thermodynamic Stability"
 
 This repository contains supplementary code and data for:
 
-**Viral Nucleosome-Like Particles Exhibit Dynamic Flexibility and Reduced Thermodynamic Stability**, M. Melo and J. Wereszczynski, *bioRxiv*, 2025
+**Viral Nucleosome-Like Particles Show Increased Dynamic Behavior and Altered Thermodynamic Stability**, M.E. Melo and J. Wereszczynski, *bioRxiv*, 2025
 DOI: [10.1101/2025.07.22.666224](https://doi.org/10.1101/2025.07.22.666224)
 ## Directory Structure
 - `input_files/`: Simulation setup files (PDB, config)
@@ -15,7 +15,7 @@ DOI: [10.1101/2025.07.22.666224](https://doi.org/10.1101/2025.07.22.666224)
 - Data: CC BY 4.0 (see LICENSE-data.txt)
 
 ## Citation
-M. Melo and J. Wereszczynski, *Viral Nucleosome-Like Particles Exhibit Dynamic Flexibility and Reduced Thermodynamic Stability*, *bioRxiv*, 2025
+M.E. Melo and J. Wereszczynski, *Viral Nucleosome-Like Particles Show Increased Dynamic Behavior and Altered Thermodynamic Stability*, *bioRxiv*, 2025
 DOI: [10.1101/2025.07.22.666224](https://doi.org/10.1101/2025.07.22.666224)
 
 Data archive on Zenodo:  
