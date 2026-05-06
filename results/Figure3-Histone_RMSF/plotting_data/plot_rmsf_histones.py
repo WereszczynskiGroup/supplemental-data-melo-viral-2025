@@ -203,4 +203,4 @@ fig.subplots_adjust(left=0.10, right=0.96, top=0.85, bottom=0.2)
 
 
 # Save the figure
-plt.savefig('Fig4-Histone_RMSF_all_error.pdf')
+plt.savefig('Fig3-Histone_RMSF_all_error.pdf')
