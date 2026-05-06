@@ -1,0 +1,14 @@
+Statistics for files:
+trunc_euk_widom.rmsd.H3_E_1.dat
+trunc_euk_widom.rmsd.H3_E_2.dat
+trunc_euk_widom.rmsd.H3_E_3.dat
+trunc_euk_widom.rmsd.H3_E_4.dat
+
+Average of column 1 in trunc_euk_widom.rmsd.H3_E_1.dat: 2.3027756315789474
+Average of column 1 in trunc_euk_widom.rmsd.H3_E_2.dat: 2.1813864789473683
+Average of column 1 in trunc_euk_widom.rmsd.H3_E_3.dat: 2.722489915789474
+Average of column 1 in trunc_euk_widom.rmsd.H3_E_4.dat: 2.135046889473684
+
+Average of the averages: 2.3354247289473684
+Standard Deviation of averages: 0.23171344557410284
+Standard Error of averages: 0.11585672278705142
