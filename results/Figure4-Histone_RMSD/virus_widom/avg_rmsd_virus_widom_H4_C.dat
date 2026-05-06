@@ -1,0 +1,14 @@
+Statistics for files:
+virus_VIRUS.rmsd.H4_C_1.dat
+virus_VIRUS.rmsd.H4_C_2.dat
+virus_VIRUS.rmsd.H4_C_3.dat
+virus_VIRUS.rmsd.H4_C_4.dat
+
+Average of column 1 in virus_VIRUS.rmsd.H4_C_1.dat: 3.2191449684210527
+Average of column 1 in virus_VIRUS.rmsd.H4_C_2.dat: 2.578150763157895
+Average of column 1 in virus_VIRUS.rmsd.H4_C_3.dat: 4.141348605263158
+Average of column 1 in virus_VIRUS.rmsd.H4_C_4.dat: 3.6772985421052633
+
+Average of the averages: 3.403985719736842
+Standard Deviation of averages: 0.5776186896814851
+Standard Error of averages: 0.28880934484074255

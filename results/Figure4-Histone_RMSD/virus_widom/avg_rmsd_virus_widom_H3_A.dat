@@ -1,0 +1,14 @@
+Statistics for files:
+virus_widom.rmsd.H3_A_1.dat
+virus_widom.rmsd.H3_A_2.dat
+virus_widom.rmsd.H3_A_3.dat
+virus_widom.rmsd.H3_A_4.dat
+
+Average of column 1 in virus_widom.rmsd.H3_A_1.dat: 4.168951600000001
+Average of column 1 in virus_widom.rmsd.H3_A_2.dat: 2.3603241736842104
+Average of column 1 in virus_widom.rmsd.H3_A_3.dat: 2.9833172
+Average of column 1 in virus_widom.rmsd.H3_A_4.dat: 2.9880302368421052
+
+Average of the averages: 3.1251558026315793
+Standard Deviation of averages: 0.6544842811771393
+Standard Error of averages: 0.32724214058856965
