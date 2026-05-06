@@ -101,5 +101,5 @@ fig.text(0.01, 0.5, 'Average RMSD (Å)', va='center', rotation='vertical', fonts
 fig.subplots_adjust(left=0.12, right=0.96)#, top=0.93, bottom=0.1, wspace=0.15, hspace=0.15)
 
 # Save to file
-plt.savefig("Fig3-rmsd_histones.pdf")
+plt.savefig("Fig4-rmsd_histones.pdf")
 
