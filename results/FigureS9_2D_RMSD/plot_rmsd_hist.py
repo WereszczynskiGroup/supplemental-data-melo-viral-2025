@@ -49,5 +49,5 @@ axs[1].set_ylim(0,0.43)
 fig.suptitle('Viral Connectors RMSD', fontsize=14,fontweight='bold')#, x=0.51)
 
 # Layout adjustments
-plt.savefig('FigS8-rmsd_hist_connectors.pdf', dpi=300)
+plt.savefig('FigS9-rmsd_hist_connectors.pdf', dpi=300)
 
