@@ -2,8 +2,8 @@
 
 This repository contains supplementary code and data for:
 
-**Viral Nucleosome-Like Particles Show Increased Dynamic Behavior and Altered Thermodynamic Stability**, M.E. Melo and J. Wereszczynski, *bioRxiv*, 2025
-DOI: [10.1101/2025.07.22.666224](https://doi.org/10.1101/2025.07.22.666224)
+**Viral Nucleosome-Like Particles Show Increased Dynamic Behavior and Altered Thermodynamic Stability**, M.E. Melo and J. Wereszczynski, *Biophysical Journal*, 2026
+DOI: [10.1016/j.bpj.2026.04.036](https://doi.org/10.1016/j.bpj.2026.04.036)
 ## Directory Structure
 - `input_files/`: Simulation setup files (PDB, config)
 - `analysis_scripts/scripts/`: Analysis scripts (e.g., DNA unwrapping, RMSF)
@@ -14,9 +14,7 @@ DOI: [10.1101/2025.07.22.666224](https://doi.org/10.1101/2025.07.22.666224)
 - Code: MIT License (see LICENSE)
 - Data: CC BY 4.0 (see LICENSE-data.txt)
 
-## Citation
-M.E. Melo and J. Wereszczynski, *Viral Nucleosome-Like Particles Show Increased Dynamic Behavior and Altered Thermodynamic Stability*, *bioRxiv*, 2025
-DOI: [10.1101/2025.07.22.666224](https://doi.org/10.1101/2025.07.22.666224)
+Melo ME, Wereszczynski J, *Viral Nucleosome-Like Particles Show Increased Dynamic Behavior and Altered Thermodynamic Stability*, *Biophysical Journal* (2026), doi: [10.1016/j.bpj.2026.04.036](https://doi.org/10.1016/j.bpj.2026.04.036)
 
 Data archive on Zenodo:  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16342233.svg)](https://doi.org/10.5281/zenodo.16342233)
