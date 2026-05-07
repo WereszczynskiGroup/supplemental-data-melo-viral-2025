@@ -26,10 +26,10 @@ font ={'family': 'sans-serif',
 
 top_file = 'virus_widom.prmtop'
 
-u1_done = mda.Universe(top_file,'virus_widom.run1.xtc')
-ref_u1_done = mda.Universe(top_file,'virus_widom.run1.xtc')
-u1 = mda.Universe(top_file,'virus_widom.run2.xtc')
-ref_u1 = mda.Universe(top_file,'virus_widom.run2.xtc')
+u1 = mda.Universe(top_file,'virus_widom.run1.xtc')
+ref_u1 = mda.Universe(top_file,'virus_widom.run1.xtc')
+u2 = mda.Universe(top_file,'virus_widom.run2.xtc')
+ref_u2 = mda.Universe(top_file,'virus_widom.run2.xtc')
 u3 = mda.Universe(top_file,'virus_widom.run3.xtc')
 ref_u3 = mda.Universe(top_file,'virus_widom.run3.xtc')
 u4 = mda.Universe(top_file,'virus_widom.run4.xtc')
