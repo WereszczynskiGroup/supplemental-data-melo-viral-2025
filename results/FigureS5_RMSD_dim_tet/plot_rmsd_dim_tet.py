@@ -48,7 +48,7 @@ titles = {
 fig, axes = plt.subplots(6, 2, figsize=(6.75, 8), sharex=True, sharey=True, gridspec_kw={'wspace': 0.15, 'hspace': 0.45})
 axes = axes.flatten()
 
-plt.subplots_adjust(left=0.10, right=0.95, top=0.89, bottom=0.euk_alpha)
+plt.subplots_adjust(left=0.10, right=0.95, top=0.89, bottom=0.11)
 
 
 
